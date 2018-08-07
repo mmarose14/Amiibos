@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".activity.AmiiboDetailActivity">
+
+    <TextView
+        android:id="@+id/Label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/name_label" />
+
+    <TextView
+        android:id="@+id/amiibo_name"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Label1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/not_available" />
+
+    <TextView
+        android:id="@+id/Label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amiibo_name"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/series_label" />
+
+    <TextView
+        android:id="@+id/amiibo_series"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Label2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/not_available" />
+
+    <TextView
+        android:id="@+id/Label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amiibo_series"
+        android:layout_centerHorizontal="true"
+        android:text="@string/release_date_label" />
+
+    <TextView
+        android:id="@+id/amiibo_release_date"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Label3"
+        android:layout_centerHorizontal="true"
+        android:text="@string/not_available" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Amiibos</string>
+    <string name="amiibo_error">There was a problem retrieving the Amiibos</string>
+    <string name="not_available">N/A</string>
+    <string name="name_label">Amiibo Name</string>
+    <string name="series_label">Amiibo Series</string>
+    <string name="release_date_label">Amiibo Release Date</string>
+</resources>
