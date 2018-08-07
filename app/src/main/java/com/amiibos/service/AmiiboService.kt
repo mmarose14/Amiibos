@@ -6,5 +6,5 @@ import retrofit2.http.GET
 
 interface AmiiboService {
     @GET("amiibo/?type=figure")
-    fun getAmiibos() : Call<AmiiboResponse>
+    fun getAmiibos(): Call<AmiiboResponse>
 }

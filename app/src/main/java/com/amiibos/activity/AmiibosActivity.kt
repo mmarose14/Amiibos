@@ -55,7 +55,7 @@ class AmiibosActivity : AppCompatActivity(), AmiiboClickListener {
     }
 
     //Displays a user friendly error in case the API call fails
-    private fun displayError(message : String) {
+    private fun displayError(message: String) {
         error_message.visibility = View.VISIBLE
         error_message.text = message
     }
